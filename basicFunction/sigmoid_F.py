@@ -10,10 +10,10 @@ def plot(x,y):
     plt.show()
     
 t = np.arange(-10., 10.1, 0.1)
-print t
-print np.sum(t)
-print sigmoid(t)
-print np.sum(sigmoid(t))
+print(t)
+print(np.sum(t))
+print(sigmoid(t))
+print(np.sum(sigmoid(t)))
 
 plot(t,sigmoid(t))
 
